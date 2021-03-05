@@ -1,0 +1,2 @@
+(this["webpackJsonp25-omdb"]=this["webpackJsonp25-omdb"]||[]).push([[0],{4:function(E,e,t){"use strict";t.r(e);var n=t(0),c=t.n(n),o=t(3),s=t.n(o),i=(t(9),t(2));s.a.render(Object(i.jsx)(c.a.StrictMode,{children:Object(i.jsx)("h1",{children:"Open Movie Data Base JEEEEEEEEEEEEEEEEEEe"})}),document.getElementById("root"))},9:function(E,e,t){}},[[4,1,2]]]);
+//# sourceMappingURL=main.b0bb90d3.chunk.js.map
