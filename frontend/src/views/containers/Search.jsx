@@ -29,6 +29,7 @@ export default function App() {
 
         <Link to='/search'>
         <input
+        
           type="text"
           placeholder="Search"
           value={input}

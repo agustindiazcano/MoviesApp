@@ -23,8 +23,8 @@ export default () => {
     <>
       <h1 className="paddingTodo" >Search results:</h1>
       <div>
-        {movies.length > 0
-          ? movies.slice(1).map((p) => {
+        {movies ?
+           movies.slice(1).map((p) => {
               return (
                 <div key={p.imdbID} className="centerCar">
                   <Link

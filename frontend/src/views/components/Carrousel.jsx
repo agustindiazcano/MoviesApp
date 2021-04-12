@@ -18,7 +18,7 @@ function Carrousel() {
 
   <Carousel.Item interval={1000}>
     <img
-      className="d-block w-100"
+      className="d-block w-100 paddingcar"
       src="https://images3.alphacoders.com/570/thumb-1920-570682.jpg"
       alt="First slide"
     />

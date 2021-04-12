@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Montserrat&family=Nunito:wght@800&display=swap');
 
 
-
-
 body {
   background-color: black;
   margin: 0;
@@ -53,14 +51,14 @@ img {
 
 .color-nav {
   color:  #ff8e8efb;
-background: rgba(255, 156, 143, 0.384);
-box-shadow: 2px 1px #ff8e8efb, -10px 0 5px olive;
+background: rgba(255, 156, 143, 0);
+
 transition: 0.5s ease;
 }
 .color-nav:hover {
   color:  #ff8e8efb;
   transition: 0.5s ease;
-  background: rgba(255, 155, 155, 0.87);
+  background: rgba(0, 0, 0, 0.87);
   box-shadow: 2px 1px #ff8e8efb, -10px 0 5px olive;
   }
 
@@ -83,7 +81,7 @@ transition: 0.5s ease;
 }
 
 .coffee2{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 119, 210);
   margin-left: 10px;
   text-shadow: crimson;
   transition: 0.5s ease;
@@ -105,6 +103,11 @@ transition: 0.5s ease;
 
 .fuenteTexto {
   font-family: 'Montserrat', sans-serif; 
+}
+
+.text-secondary{
+  color:  #ff8e8efb;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footerJIJO{
@@ -147,4 +150,8 @@ transition: 0.5s ease;
 .footerjujuju{
 
   margin: 4px;
+}
+
+.paddingcar{
+  padding-top: 0%;
 }

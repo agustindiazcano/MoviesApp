@@ -17,7 +17,7 @@ function Logout() {
         <div>
 
         <div>
-        {UserLogged ? <button className="btn saldemesa " onClick={logoutClick}>Logout</button> : null}
+        {UserLogged ? <button className=" text-secondary btn saldemesa " onClick={logoutClick}>Logout</button> : null}
       </div>
 
         </div>

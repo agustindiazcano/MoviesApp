@@ -26,12 +26,12 @@ function Navbars() {
       <Navbar className="color-nav" bg="color-nav" expand="lg" >
 
         <Navbar.Brand href="/"> 
-        <span className="coffee"> <GiCottonFlower className="coffee2"/><span className="coffee2 fuenteNueva2">Sweet Orchid</span></span>
+        <span className="coffee coffee2"> <GiCottonFlower className="coffee2 "/><span className="coffee2 fuenteNueva2">Orchid</span></span>
 
  
         </Navbar.Brand>
 
-        <SearchComponent type="text" placeholder="Search" className="mr-sm-2" />
+        <SearchComponent type="text" placeholder="Search" className="mr-sm-2 text-secondary" />
         <Link to="/users">
         <CgUserList className="letrasbotonnav" />
         </Link>
@@ -49,11 +49,11 @@ function Navbars() {
         <UserLogged/> 
 
         <Link to="/signin">
-        <button className="saldemesa fuenteTexto btn " >Login</button>
+        <button className="saldemesa fuenteTexto btn text-secondary " >Login</button>
         </Link>
 
         <Link to="/register">
-          <button className="btn saldemesa fuenteTexto" to="/register" >Register</button>
+          <button className="btn saldemesa fuenteTexto text-secondary" to="/register" >Register</button>
         </Link>
         { UserLogged ? <Logout/>: null}
         

@@ -3,6 +3,8 @@ import axios from "axios";
 
 // handle favs
 
+//actions
+
 export const addFav = createAsyncThunk("ADD_FAV", (movie) => {
 
     return axios({
@@ -33,6 +35,9 @@ export const getFav = createAsyncThunk("GET_FAV", () => {
     url: "http://localhost:5000/favorites",
   }).then((res) => res.data);
 });
+
+
+//Reducers
 
   export const favoritesReducer = createReducer({}, {
     [addFav.fulfilled]: (state, action) => action.payload,
